@@ -54,7 +54,7 @@ client.on("message", async message => {
 
     let sicon = message.guild.iconURL;
     let serverembed = new Discord.RichEmbed()
-    .setDescription("Serverinfo")
+    .setDescription("ServerInfo")
     .setColor("RANDOM")
     .setThumbnail(sicon)
     .addField("Server Name", message.guild.name)

@@ -1,0 +1,22 @@
+{
+  "name": "discord-js",
+  "version": "1.0.0",
+  "description": "a discord bot",
+  "main": "index.js",
+  "dependencies": {
+    "date": "^1.0.2",
+    "dbcm": "^1.2.3",
+    "discord": "^0.8.2",
+    "dotenv": "^8.1.0",
+    "discord.js": "^11.5.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.24.0",
+    "quickdb": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

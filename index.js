@@ -86,7 +86,7 @@ client.on("message", async message => {
     .setTitle(`${client.user.tag}의 핑:`) //제목 설정
     .addField("💬메세지: ", `${botping.createdTimestamp - message.createdTimestamp}ms`) //필드에 botping의 메세지 생성시간 - 명령어 메세지 생성 시간
     .addField('📡API: ', `${Math.round(client.ping)}ms`) //필드에 WebSocket 핑 추가
-    .addField('코드 출처 ', `제로ㅣBrazil#5005 `) //필드에 WebSocket 핑 추가
+    .addField('코드 출처 ', `제로ㅣBrazil#5005 `) 
     .setFooter(message.author.tag, message.author.avatarURL) //footer에 메세지를 친 유저의 이름#태그 형식으로 쓴 후 아이콘은 해당 유저의 프사로 설정
     .setColor("RANDOM") //랜덤 컬러
     .setTimestamp() //메세지 생성 시간
